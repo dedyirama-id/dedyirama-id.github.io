@@ -953,19 +953,43 @@ section,
 
 .clients .swiper {
   padding: 10px 0;
+  cursor: grab;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .clients .swiper-wrapper {
   height: auto;
 }
 
+.clients .swiper-slide {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+
 .clients .swiper-slide img {
   transition: 0.3s;
   padding: 0 10px;
+  max-height: 42px;
+  width: auto;
+  object-fit: contain;
 }
 
 .clients .swiper-slide img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+.clients .swiper-slide p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--heading-color);
 }
 
 /*--------------------------------------------------------------

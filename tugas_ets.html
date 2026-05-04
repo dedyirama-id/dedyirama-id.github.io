@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Dicoding Indonesia | UTS Web</title>
+    <meta
+      name="description"
+      content="Halaman profil Dicoding Indonesia yang menampilkan visi, program terbaru, artikel, dan informasi kontak."
+    />
+    <meta
+      name="keywords"
+      content="Dicoding, pendidikan teknologi, program belajar, developer, Indonesia"
+    />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Dicoding Landing Page
+  * Updated for tugas ETS
+  * Base template by BootstrapMade
+  ======================================================== -->
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="#hero" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.webp" alt=""> -->
+          <h1 class="sitename">
+            <img src="assets/img/dicoding-logo.png" alt="Logo Dicoding" />
+          </h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#event">Acara</a></li>
+            <li><a href="#programs">Program</a></li>
+            <li><a href="#articles">Artikel</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="btn-getstarted" href="#programs">Lihat Program</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
+              data-aos="zoom-out"
+            >
+              <h1>Penyedia pendidikan teknologi terdepan di Indonesia.</h1>
+              <p>
+                Bangun karier sebagai talenta digital dari nol hingga siap
+                bersaing di industri.
+              </p>
+              <div class="d-flex">
+                <a href="#about" class="btn-get-started"
+                  >Pelajari Lebih Lanjut</a
+                >
+                <a
+                  href="https://youtu.be/Fhu8EeeVEcE"
+                  class="glightbox btn-watch-video d-flex align-items-center"
+                  ><i class="bi bi-play-circle"></i><span>Tonton Video</span></a
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-6 order-1 order-lg-2 hero-img"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <video
+                class="img-fluid rounded-4"
+                autoplay
+                muted
+                loop
+                playsinline
+              >
+                <source src="assets/video/globe.mp4" type="video/mp4" />
+                Peramban tidak mendukung elemen video.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- Partners Section -->
+      <section id="partners" class="clients section light-background">
+        <div class="container" data-aos="zoom-in">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 40
+                  },
+                  "480": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 60
+                  },
+                  "640": {
+                    "slidesPerView": 4,
+                    "spaceBetween": 80
+                  },
+                  "992": {
+                    "slidesPerView": 5,
+                    "spaceBetween": 120
+                  },
+                  "1200": {
+                    "slidesPerView": 6,
+                    "spaceBetween": 120
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/partners/google-gtp.png"
+                  class="img-fluid"
+                  alt="Google GTP"
+                  loading="lazy"
+                />
+              </div>
+              <div
+                class="swiper-slide d-flex align-items-center justify-content-center"
+              >
+                <p class="mb-0 text-center fw-semibold">
+                  Meta Tech<br />Provider
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/partners/google-for-education.png"
+                  class="img-fluid"
+                  alt="Google for Education"
+                  loading="lazy"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/partners/google-workspace-select.png"
+                  class="img-fluid"
+                  alt="Google Workspace Select"
+                  loading="lazy"
+                />
+              </div>
+              <div
+                class="swiper-slide d-flex align-items-center justify-content-center"
+              >
+                <p class="mb-0 text-center fw-semibold">
+                  Microsoft AI<br />Cloud Partner
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/partners/ibm.png"
+                  class="img-fluid"
+                  alt="IBM"
+                  loading="lazy"
+                />
+              </div>
+              <div
+                class="swiper-slide d-flex align-items-center justify-content-center"
+              >
+                <p class="mb-0 text-center fw-semibold">
+                  AWS Authorized<br />Training Partner
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/partners/google-cloud-select.png"
+                  class="img-fluid"
+                  alt="Google Cloud Select"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Partners Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Tentang Kami</h2>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <p>
+              Visi Dicoding adalah menjadi platform edukasi teknologi terdepan
+              yang mendorong akses literasi digital yang lebih luas untuk semua.
+              Dicoding memiliki misi untuk mengakselerasi transisi Indonesia
+              menuju dunia digital melalui pendidikan teknologi yang
+              mentransformasi kehidupan.
+            </p>
+            <p>
+              Kini semua bangsa bergerak menuju dunia digital yang bertumpu pada
+              inovasi teknologi di semua sendi kehidupan. Kami yakin pendidikan
+              teknologi adalah fondasi bagi setiap bangsa agar menjadi yang
+              terdepan dalam menghadapi dunia digital.
+            </p>
+            <p>
+              Dicoding hadir sebagai platform pendidikan teknologi yang membantu
+              menghasilkan talenta digital berstandar global. Semua demi
+              mengakselerasi Indonesia agar menjadi yang terdepan.
+            </p>
+          </div>
+          <div class="row justify-content-end">
+            <div class="col-12 col-md-6 col-lg-4">
+              <img
+                class="d-block ms-auto"
+                src="assets/img/ceo-signature-wide.png"
+                alt="ceo signature"
+              />
+              <div class="text-end mt-2">
+                <div class="fw-semibold">Narenda Wicaksono</div>
+                <div class="small text-muted">CEO Dicoding</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <!-- Event Section -->
+      <section
+        id="event"
+        class="section why-us light-background"
+        data-builder="section"
+      >
+        <div class="container-fluid">
+          <div class="row gy-4">
+            <div
+              class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1"
+            >
+              <div
+                class="content px-xl-5"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <h3>Dicoding Developer Conference</h3>
+                <blockquote>"Built by Humans, Accelerated by AI"</blockquote>
+                <p>
+                  Satu hari penuh untuk belajar langsung dari praktisi industri,
+                  mendapatkan insight teknologi terbaru, dan bertemu developer
+                  dari seluruh Indonesia.
+                </p>
+              </div>
+
+              <div
+                class="faq-container px-xl-5"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="faq-item faq-active">
+                  <h3><span>01</span> Materi sesuai track yang dipilih</h3>
+                  <div class="faq-content">
+                    <p>
+                      Dapatkan akses materi Dicoding sesuai jalur belajar yang
+                      kamu daftarkan.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3><span>02</span> Sertifikat keikutsertaan</h3>
+                  <div class="faq-content">
+                    <p>
+                      Dapatkan sertifikat sebagai bukti keikutsertaan Dicoding
+                      Developer Conference.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    <span>03</span> Networking dengan pakar IT dan developer
+                    se-Indonesia
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Berkenalan dan perluas jaringanmu dengan pakar IT dan
+                      developer dari seluruh Indonesia.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+              </div>
+            </div>
+
+            <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+              <video
+                class="img-fluid"
+                src="assets/video/ddc.mp4"
+                autoplay
+                muted
+                loop
+                data-aos="zoom-in"
+                data-aos-delay="100"
+              ></video>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Event Section -->
+
+      <!-- Programs Section -->
+      <section id="programs" class="work-process section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Program Terbaru</h2>
+          <p>
+            Bekerja sama dengan partner, kami menyelenggarakan beragam program
+            belajar untuk mendukung talenta digital Indonesia.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-5">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="steps-item">
+                <div class="steps-image">
+                  <img
+                    src="assets/img/dicoding-aws.jpg"
+                    alt="AWS AI Academy 2026"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="steps-content">
+                  <div class="steps-number">#1</div>
+                  <h3>AWS AI Academy 2026</h3>
+                  <p>
+                    Program beasiswa untuk meningkatkan kompetensi dalam bidang
+                    AI Development dari Amazon Web Services (AWS).
+                  </p>
+                  <div class="steps-features">
+                    <div class="feature-item">
+                      <i class="bi bi-check-circle"></i>
+                      <span
+                        >100% gratis untuk seluruh Warga Negara Indonesia.</span
+                      >
+                    </div>
+                    <div class="feature-item">
+                      <i class="bi bi-check-circle"></i>
+                      <span
+                        >Kurikulum terbaru: belajar Machine Learning dasar
+                        hingga implementasi Generative AI.</span
+                      >
+                    </div>
+                    <div class="feature-item">
+                      <i class="bi bi-check-circle"></i>
+                      <span
+                        >Bimbingan expert: belajar mandiri dengan dukungan
+                        langsung dari para mentor.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Steps Item -->
+            </div>
+
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="steps-item">
+                <div class="steps-image">
+                  <img
+                    src="assets/img/dicoding-bootcamp.jpg"
+                    alt="Dicoding Bootcamp"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="steps-content">
+                  <div class="steps-number">#2</div>
+                  <h3>Dicoding Bootcamp</h3>
+                  <p>
+                    Belajar terstruktur dari nol, praktik langsung dengan proyek
+                    nyata, dan dibimbing mentor berpengalaman.
+                  </p>
+                  <div class="steps-features">
+                    <div class="feature-item">
+                      <i class="bi bi-check-circle"></i>
+                      <span>Memperkuat dasar agar siap ke tahap lanjutan</span>
+                    </div>
+                    <div class="feature-item">
+                      <i class="bi bi-check-circle"></i>
+                      <span>Bangun portofolio proyek nyata</span>
+                    </div>
+                    <div class="feature-item">
+                      <i class="bi bi-check-circle"></i>
+                      <span>Dibimbing praktisi industri</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Steps Item -->
+            </div>
+
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="steps-item">
+                <div class="steps-image">
+                  <img
+                    src="assets/img/dicoding_minicamp.jpg"
+                    alt="AI Mini Camp"
+                    class="img-fluid"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="steps-content">
+                  <div class="steps-number">#3</div>
+                  <h3>AI Mini Camp</h3>
+                  <p>
+                    Program pelatihan gratis untuk membangun talenta digital
+                    unggul Indonesia dalam pemanfaatan AI guna meningkatkan
+                    produktivitas sehari-hari maupun profesional.
+                  </p>
+                  <div class="steps-features">
+                    <div class="feature-item">
+                      <i class="bi bi-check-circle"></i>
+                      <span>Materi AI berstandar global</span>
+                    </div>
+                    <div class="feature-item">
+                      <i class="bi bi-check-circle"></i>
+                      <span>Sertifikat untuk portofolio</span>
+                    </div>
+                    <div class="feature-item">
+                      <i class="bi bi-check-circle"></i>
+                      <span>Dibimbing langsung oleh praktisi industri</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Steps Item -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Programs Section -->
+
+      <!-- Recent Posts Section -->
+      <section
+        id="articles"
+        class="recent-blog-postst section light-background"
+      >
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Artikel Terbaru</h2>
+          <p>
+            Ikuti pembaruan terbaru dari Dicoding melalui Instagram untuk
+            mendapatkan informasi program, tips, dan inspirasi dunia teknologi.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-xl-4 col-md-6">
+              <div
+                class="post-item position-relative h-100"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="post-img position-relative overflow-hidden">
+                  <img
+                    src="assets/img/dicoding_asah-1.jpg"
+                    class="img-fluid"
+                    alt="Cerita karier TechOps"
+                  />
+                  <span class="post-date">May 02</span>
+                </div>
+
+                <div class="post-content d-flex flex-column">
+                  <h3 class="post-title">
+                    Waktu Kecil Senang Main Komputer, Sekarang Jadi TechOps
+                  </h3>
+
+                  <div class="meta d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-person"></i>
+                      <span class="ps-2">Nazwa Sapta Pradana</span>
+                    </div>
+                    <span class="px-3 text-black-50">/</span>
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-folder2"></i>
+                      <span class="ps-2">Cerita Alumni</span>
+                    </div>
+                  </div>
+
+                  <hr />
+
+                  <a
+                    href="https://www.instagram.com/p/DXyOl81EdPK/?img_index=1"
+                    class="readmore stretched-link"
+                    ><span>Baca Selengkapnya</span
+                    ><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End post item -->
+
+            <div class="col-xl-4 col-md-6">
+              <div
+                class="post-item position-relative h-100"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="post-img position-relative overflow-hidden">
+                  <img
+                    src="assets/img/dicoding_asah-2.jpg"
+                    class="img-fluid"
+                    alt="Cerita karier di BUMN"
+                  />
+                  <span class="post-date">April 17</span>
+                </div>
+
+                <div class="post-content d-flex flex-column">
+                  <h3 class="post-title">
+                    Anak Kampung yang Awalnya Ragu Kuliah IT, Kini Sukses di
+                    BUMN
+                  </h3>
+
+                  <div class="meta d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-person"></i>
+                      <span class="ps-2">Fadilla Rahim</span>
+                    </div>
+                    <span class="px-3 text-black-50">/</span>
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-folder2"></i>
+                      <span class="ps-2">Cerita Alumni</span>
+                    </div>
+                  </div>
+
+                  <hr />
+
+                  <a
+                    href="https://www.instagram.com/p/DXNgb4ZF3N4/?img_index=1"
+                    class="readmore stretched-link"
+                    ><span>Baca Selengkapnya</span
+                    ><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End post item -->
+
+            <div
+              class="col-xl-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="post-item position-relative h-100">
+                <div class="post-img position-relative overflow-hidden">
+                  <img
+                    src="assets/img/dicoding_asah-3.jpg"
+                    class="img-fluid"
+                    alt="Cerita analis IT di BUMN"
+                  />
+                  <span class="post-date">April 10</span>
+                </div>
+
+                <div class="post-content d-flex flex-column">
+                  <h3 class="post-title">
+                    Dulu Hanya Bisa Copy-Paste Script, Sekarang Jadi Analis IT
+                    di BUMN
+                  </h3>
+
+                  <div class="meta d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-person"></i>
+                      <span class="ps-2">Zidane Ikkoy Ramadhan</span>
+                    </div>
+                    <span class="px-3 text-black-50">/</span>
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-folder2"></i>
+                      <span class="ps-2">Cerita Alumni</span>
+                    </div>
+                  </div>
+
+                  <hr />
+
+                  <a
+                    href="https://www.instagram.com/p/DW7e4KyjbyH/?img_index=1"
+                    class="readmore stretched-link"
+                    ><span>Baca Selengkapnya</span
+                    ><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End post item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Recent Posts Section -->
+
+      <!-- Call To Action Section -->
+      <section
+        id="call-to-action"
+        class="call-to-action section dark-background"
+      >
+        <img src="assets/img/bg/bg-8.webp" alt="" />
+
+        <div class="container">
+          <div class="row" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-xl-9 text-center text-xl-start">
+              <h3>Bangun Karier sebagai Talenta Digital</h3>
+              <p>Jelajahi berbagai program belajar berstandar global.</p>
+            </div>
+            <div class="col-xl-3 cta-btn-container text-center">
+              <a
+                class="cta-btn align-middle"
+                href="https://www.dicoding.com/registration"
+                >Gabung Sekarang</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Call To Action Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Kontak</h2>
+          <p>Dicoding Indonesia oleh PT Dicoding Akademi</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-5">
+              <div class="info-wrap">
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>Alamat</h3>
+                    <p>
+                      Dicoding Space Jl. Batik Kumeli No. 50, Sukaluyu, Kec.
+                      Cibeunying Kaler Kota Bandung Jawa Barat 40123
+                    </p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>Email</h3>
+                    <p>support@dicoding.com</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.956997019444!2d107.63128067401718!3d-6.895747267479203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7a55a715555%3A0xb8bb411d2516aad6!2sDicoding%20Academy!5e0!3m2!1sid!2sid!4v1777857549635!5m2!1sid!2sid"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 270px"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="php-email-form"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <label for="name-field" class="pb-2">Nama Anda</label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name-field"
+                      class="form-control"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="email-field" class="pb-2">Email Anda</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email-field"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="subject-field" class="pb-2">Subjek</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      id="subject-field"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="message-field" class="pb-2">Pesan</label>
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="10"
+                      id="message-field"
+                      required=""
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Pesan Anda telah terkirim. Terima kasih!
+                    </div>
+
+                    <button type="submit">Kirim Pesan</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="#hero" class="d-flex align-items-center">
+              <span class="sitename">Dicoding Indonesia</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>
+                Dicoding Space Jl. Batik Kumeli No. 50, Sukaluyu, Kec.
+                Cibeunying Kaler
+              </p>
+              <p>Kota Bandung Jawa Barat 40123</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Tautan</h4>
+            <ul>
+              <li>
+                <i class="bi bi-chevron-right"></i> <a href="#hero">Home</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i> <a href="#about">Tentang</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#programs">Program</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#contact">Kontak</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Jalur Belajar</h4>
+            <ul>
+              <li>
+                <i class="bi bi-chevron-right"></i> <a href="#">AI Engineer</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Data Analyst</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Web Developer</a>
+              </li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">More</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <h4>Ikuti Kami</h4>
+            <p>
+              Ikuti kanal media sosial kami untuk mendapatkan berita dan
+              pembaruan terbaru dari Dicoding.
+            </p>
+            <div class="social-links d-flex">
+              <a href="https://twitter.com/dicoding"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="https://www.facebook.com/dicoding"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/dicoding"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/dicoding"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Dicoding Indonesia</strong>
+          <span>Semua hak dilindungi</span>
+        </p>
+        <div class="credits">
+          Template dasar dari
+          <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          | Konten dan penyesuaian halaman oleh Dedy Irama
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
